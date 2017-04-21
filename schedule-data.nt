@@ -1,4 +1,18 @@
-# Το αρχείο N-Triples με τα δεδομένα του ωρολογίου προγράμματος
-# και τις δηλώσεις rdf:type για κάθε οντότητα.
-
-
+_:bnode0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Day> . 
+_:bnode0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Start> . 
+_:bnode0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#End> . 
+_:bnode0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Semester> . 
+<http://dilab77.ionio.gr/swp/poulimenos/resource/Μυλωνάς> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/poulimenos/resource/Εξόρυξη%20δεδομένων%20και%20διαχείριση%20γνώσης> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Course> . 
+_:bnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Day> . 
+_:bnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Start> . 
+_:bnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#End> . 
+_:bnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Semester> . 
+<http://dilab77.ionio.gr/swp/poulimenos/resource/Στεφανιδάκης> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/poulimenos/resource/Προγραμματισμός%20Σημασιολογικού%20Ιστού> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Course> . 
+_:bnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Day> . 
+_:bnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Start> . 
+_:bnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#End> . 
+_:bnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Semester> . 
+<http://dilab77.ionio.gr/swp/poulimenos/resource/Βλάμος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/poulimenos/resource/Βιοπληροφορική> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/poulimenos/vocab#Course> . 
