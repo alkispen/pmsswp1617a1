@@ -1,4 +1,34 @@
-# Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
-# τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
-
-
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX poulim: <http://dilab77.ionio.gr/swp/poulimenos/vocab#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+poulim:Professor rdf:type rdfs:Class .
+poulim:Day rdf:type rdfs:Class .
+poulim:Start rdf:type rdfs:Class .
+poulim:End rdf:type rdfs:Class .
+poulim:Class rdf:type rdfs:Class .
+poulim:Course rdf:type rdfs:Class .
+poulim:Semester rdf:type rdfs:Class .
+poulim:Professor rdfs:subClassOf foaf:Person .
+poulim:semester rdf:type rdf:Property .
+poulim:professor rdf:type rdf:Property .
+poulim:day rdf:type rdf:Property .
+poulim:start rdf:type rdf:Property .
+poulim:end rdf:type rdf:Property .
+poulim:class rdf:type rdf:Property .
+poulim:course rdf:type rdf:Property .
+poulim:semester rdfs:domain poulim:Semester .
+poulim:professor rdfs:domain poulim:Professor .
+poulim:day rdfs:domain poulim:Day .
+poulim:start rdfs:domain poulim:Start .
+poulim:end rdfs:domain poulim:End .
+poulim:course rdfs:domain poulim:Course .
+poulim:class rdfs:domain poulim:Class .
+poulim:professor rdfs:range poulim:Professor .
+poulim:class rdfs:range poulim:Class .
+poulim:course rdfs:range poulim:Course .
+poulim:day rdfs:range xsd:string .
+poulim:start rdfs:range xsd:string .
+poulim:end rdfs:range xsd:string .
+poulim:semester rdfs:range xsd:string .
